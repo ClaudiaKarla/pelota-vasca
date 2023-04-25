@@ -1,0 +1,38 @@
+.convocatorias button {
+    margin-top: 50px;
+    background-color:#c0c0c0;
+font-size: 20px;
+}
+
+.convoc{
+    margin-top: 10px;
+    font-size: 50px;
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+}
+
+.campeo{
+    margin-top: 50px;
+    font-size: 40px;
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+}
+
+.rec{
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color:  #0077b6;
+    opacity: 0.8;
+}
+
+.descargar button{
+    margin-top: 400px;
+    font-size: 30px;
+    margin-left: -55px;
+}
+
+.contacto{
+    margin-top: 150px;
+}

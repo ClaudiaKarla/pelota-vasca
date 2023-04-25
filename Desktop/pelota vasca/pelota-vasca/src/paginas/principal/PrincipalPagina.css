@@ -1,0 +1,123 @@
+body{
+    background-image: url(../principal/fondopelotas.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+      background-size:cover;
+      /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+      background-attachment:fixed;
+  }
+  
+  .titulo1{
+    margin-top: 220px;
+    text-align:center;
+  }
+  
+  .com{
+    color: white;
+    font-size: 100px;
+    -webkit-text-stroke: 1.2px black;
+    width: 100%;
+    background-color:gray;
+    opacity: 0.8;
+  }
+  
+  .patrocinadores img{
+    margin-top: 60px;
+   height: 210px;
+  }
+  
+  
+  .botones Button{
+    margin-top: 80px;
+    border-radius: 20px;
+    width: 450px;
+    height: 150px;
+    color: white;
+    font-size: 70px;
+    text-decoration: none;
+    -webkit-text-stroke: 1.2px black;
+    animation:swing 1s infinite;
+  }
+  
+  @keyframes swing{
+    10% {
+      transform: scale(1.0) rotate(5deg);
+    }
+    20% {
+      transform: scale(1.05) rotate(5deg);
+    }
+    30% {
+      transform: scale(1.05) rotate(5deg);
+    }
+    40% {
+      transform: none;
+    }
+  }
+  
+  .inscripcion{
+    margin-top: 50px;
+    color: green;
+    font-size: 70px;
+    -webkit-text-stroke: 1.2px black;
+    text-align:center;
+  }
+  
+  .carrusel{
+    margin-top: 100px;
+    width: 70%;
+    height: auto;
+  }
+  
+  .uno{
+    -webkit-text-stroke: 1.2px black;
+    font-size: 70px;
+  }
+  
+  .dos{
+    -webkit-text-stroke: 1.2px black;
+    font-size: 40px;
+  }
+  
+  .tres{
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+    font-size: 60px;
+  }
+  
+  .cuatro{
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .cinco{
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+    font-size: 60px;
+  }
+  
+  .seis{
+    -webkit-text-stroke: 1.2px black;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .cuadro{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    background-color: #0077b6;
+    opacity: 0.6;
+  }
+  
+  .copy{
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .menuDes{
+    position: absolute;
+   margin-top: -150px;
+   margin-left: 90%;
+  }
+  
